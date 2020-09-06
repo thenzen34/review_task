@@ -1,0 +1,17 @@
+.modal_busy_container {
+    background: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 0;
+    z-index: 2000;
+    display: none;
+}
+
+.modal_busy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

@@ -1,0 +1,62 @@
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 12px);
+}
+
+#app {
+    top:100px;
+}
+
+.radio_choice.active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#101112), color-stop(40%, #17191b), to(#1b1e20));
+
+    background-image: linear-gradient(#101112, #17191b 40%, #1b1e20);
+
+    background-repeat: no-repeat;
+
+    -webkit-filter: none;
+
+    filter: none;
+}
+li.nav-item.active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#101112), color-stop(40%, #17191b), to(#1b1e20));
+
+    background-image: linear-gradient(#101112, #17191b 40%, #1b1e20);
+
+    background-repeat: no-repeat;
+
+    -webkit-filter: none;
+
+    filter: none;
+}
+
+.card-header > i {
+        display: none;
+    }
+    .card-header.favorite > i.favorite {
+        display: inherit;
+    }
+    .card-header.favorite > i.notfavorite {
+        display: none;
+    }
+    .card-header.notfavorite > i.favorite {
+        display: none;
+    }
+    .card-header.notfavorite > i.notfavorite {
+        display: inherit;
+    }
+
+    .pbclasses0 {
+        background-color: #ee1f1f !important;
+    }
+    .pbclasses1 {
+        background-color: #ee5f5f !important
+    }
+    .pbclasses2 {
+
+    }
+    .pbclasses3 {
+        background-color: #62c462 !important;
+    }
+    .pbclasses4 {
+        background-color: #22c422 !important;
+    }
