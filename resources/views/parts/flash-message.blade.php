@@ -1,4 +1,4 @@
-@if ($message = \Illuminate\Support\Facades\Session::get('success'))
+@if ($message = \Illuminate\Support\Facades\Session::pull('success'))
 
     <div class="alert alert-success alert-block">
 
@@ -11,7 +11,7 @@
 @endif
 
 
-@if ($message = Session::get('error'))
+@if ($message = Session::pull('error'))
 
     <div class="alert alert-danger alert-block">
 
@@ -24,7 +24,7 @@
 @endif
 
 
-@if ($message = Session::get('warning'))
+@if ($message = Session::pull('warning'))
 
     <div class="alert alert-warning alert-block">
 
@@ -37,7 +37,7 @@
 @endif
 
 
-@if ($message = Session::get('info'))
+@if ($message = Session::pull('info'))
 
     <div class="alert alert-info alert-block">
 

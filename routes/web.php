@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'ReviewsController@getIndex');
+
+Route::post('/add', 'ReviewsController@store')->name('add');
